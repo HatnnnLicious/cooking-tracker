@@ -1,0 +1,16 @@
+// Here will be stored the data for saved recipes
+
+// Format could be something like
+
+[Recipes]
+"Shougayaki", ["Poulet", 500], ["Rice", 250], ["Sauce soja", 50], ["Shouga", 50], 35
+
+// for the recipes and
+
+[Ingredients]
+"Poulet", "grammes", "Viande"
+"Rice", "grammes", "Carbs"
+"Poulet", "millilitres", "Sauce"
+"Shouga", "grammes", "Sauce"
+
+// for the ingredients.
