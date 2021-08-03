@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/languages.dart';
 
 import './recipes_screen.dart';
 import './route_generator.dart';
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-            title: 'Pick a Recipe',
+            title: 'Languages.multiLanguagesText[Languages.chosenLanguage]['Title'],
       theme: ThemeData(
         primarySwatch: Colors.deepOrange,
 
