@@ -10,7 +10,7 @@ class Languages {
   
   let int chosenLanguage = 0;
   
-  let final multiLanguagesText = [
+  static List<Dictionary<string, string>> multiLanguagesText = [
     {'title' : 'Application de cuisine', 'recipes' : 'Recettes',},
     {'title' : 'Cooking App', 'recipes' : 'Recipes',},
   ];
